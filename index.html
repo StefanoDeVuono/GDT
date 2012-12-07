@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vocabulaire d’Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grand Dictionnaire : Vocabulaire d’Internet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="style/site.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+	
+		<div class="row-fluid">
+			<div class="span4">
+				<form class="form-inline controls-row " id="dictionaryForm">
+					<input id="dictionary" type="search" class="input-medium" data-provide="typeahead" placeholder="type word here..." autocomplete="off" autocorrect="off" autocapitalize="off">
+					<button type="submit" class="btn">Search</button>
+				</form>
+			</div>
+	
+			<div id="definition" class="span8">
+				<h1>Vocabulaire d’Internet</h1>
+				<p>Type in a term and find its French translation.</p>
+			</div>
+			
+		</div> <!-- End class="row-fluid" -->
+	
+	</div> <!-- End container -->
+	
+	<footer id="footie" class="footer" class="row-fluid">
+		<p id="footerinfo">Copyright &copy; 2012. Una bell'idea</p>
+	</footer>
+	
+	<script type="text/javascript" src="js/lodash.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>
