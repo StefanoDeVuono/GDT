@@ -10,7 +10,7 @@
 		$('#dictionary').typeahead({source: function(query, process){
 			//$.ajaxSetup({ cache: false });
 			$.getJSON('dictionnaire.json', function(data){
-				dict = data
+				dict = data;
 				var words = _.keys(dict);
 				process(words);
 			});

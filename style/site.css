@@ -1,5 +1,6 @@
 /* css additions*/
 html, body {height:100%;} /*resets for footers*/
+body {background:url(../img/fleur.svg);background-size:cover; background-position: center center}
 input {margin: 10px auto;} /*layout*/
 #dictionary {font-size:16px;} /*fix zoom after entering text in portrait mode*/
 button {margin: 10px auto;} /*layout*/
